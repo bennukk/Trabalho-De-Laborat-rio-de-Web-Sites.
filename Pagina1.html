@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Um quiz pra saber se tu é viado.">
+    <title>aula de hj</title>
+      <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+      background-color: #f0f0f0;}
+    h1 {
+      color: #333;}
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      transition: 0.2s;}
+      #Pergunta1{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+      }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Quiz para saber se tu é viado.</h1>
+        <p>Vamos conferir se você degusta machos.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Sobre esse quiz.</h2>
+            <p>Aqui você conseguirá acabar com aquela dúvida que reside dentro de si.</p>
+            <p>Não se preocupe, ninguém vai te julgar após o <em>resultado.</em></p>
+            <p>Você descobrirá se você é <abbr title="Degustador, apreciador e aproveitador de M A C H O">GAY</abbr>, <abbr title="Apreciador de ambos os times, vulgo o sem frescura">BISSEXUAL</abbr> ou então <abbr title="Um homem com valores, os quais devem ser seguidos rigidamente, Parabéns.">HÉTERO.</abbr></p>
+        </section>
+        <section>
+            <h3>Bora lá?</h3><br>
+            <div>
+                <a href="Pagina2.html"></a>
+                <button id="Pergunta1" >Pergunta 1</button>
+            </div>
+            <script>
+                document.getElementById("Pergunta1").addEventListener("click", function() {window.location.href="Pagina2.html";
+                });
+            </script>
+        </section>
+    </main>
+</body>
+</html>
